@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>O panfleto</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Um dia andando pela rua de madrugada vi um panfleto anormal.</p>
+            <button class="btn-proximo" data-proximo="1">Abrir</button>
+            <button class="btn-proximo" data-proximo="2">Não ligar para o panfleto</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você abre o panfleto e ve uma casa estranha e amedrontadora com um mapa no verso.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir o mapa</button>
+            <button class="btn-proximo" data-proximo="4">Não ligar e seguir seu caminho</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você não liga para o panfleto e começa a escutar passos.</p>
+            <button class="btn-proximo" data-proximo="5">Você olha pra trás</button>
+            <button class="btn-proximo" data-proximo="6">Você corre</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você se questiona se deveria mesmo seguir o mapa?</p>
+            <button class="btn-proximo" data-proximo="7">Seguir o mapa</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você fica com medinho e segue seu caminho todo assustadinho.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Não era nada mais pelo susto resolvel abrir um planfeto que continha um mapa em seu verso</p>
+            <button class="btn-proximo" data-proximo="7">Seguir o mapa</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Era apenas um senhor mais você abre o panfleto e resolve seguir um mapa que ele continha.</p>
+            <button class="btn-proximo" data-proximo="8">Seguir o mapa</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Seguindo o mapa você percebe que tem como cortar caminho pela mata</p>
+            <button class="btn-proximo" data-proximo="9">Você segue o caminho correto</button>
+            <button class="btn-proximo" data-proximo="10">Você corta caminho</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>No caminho você se questiona se deve seguir mesmo?</p>
+            <button class="btn-proximo" data-proximo="7">Seguir o mapa</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você chega a casa amedrontadora.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você da de cara com um penhasco.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e seguir o caminho correto</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da casa você não encontra nada além de ratos aranhas e mofo.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo o caminho correto você encontra a casa amedrontadora.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
